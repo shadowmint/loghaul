@@ -1,0 +1,19 @@
+[[package]]
+name = "loghaul"
+version = "0.1.0"
+dependencies = [
+ "loghaul-core 0.1.0",
+ "loghaul-file 0.1.0",
+]
+
+[[package]]
+name = "loghaul-core"
+version = "0.1.0"
+
+[[package]]
+name = "loghaul-file"
+version = "0.1.0"
+dependencies = [
+ "loghaul-core 0.1.0",
+]
+

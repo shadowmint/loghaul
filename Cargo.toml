@@ -1,0 +1,10 @@
+[package]
+name = "loghaul"
+version = "0.1.0"
+authors = [""]
+
+[dependencies.loghaul]
+path = "crates/loghaul"
+
+[dependencies.loghaul-file]
+path = "crates/loghaul-file"
